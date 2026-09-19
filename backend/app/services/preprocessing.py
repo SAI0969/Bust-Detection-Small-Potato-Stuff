@@ -17,7 +17,13 @@ ml_dir = os.path.join(root_dir, "ml")
 if ml_dir not in sys.path:
     sys.path.append(ml_dir)
 
-from features.feature_engineering import extract_features, METEOROLOGICAL_FEATURE_COLS
+try:
+    from features.feature_engineering import extract_features, METEOROLOGICAL_FEATURE_COLS
+except ModuleNotFoundError:
+    try:
+        from ..features.feature_engineering import extract_features, METEOROLOGICAL_FEATURE_COLS
+    except Exception:
+        from app.features.feature_engineering import extract_features, METEOROLOGICAL_FEATURE_COLS
 
 def prepare_forecast_input(data: Dict[str, Any], climatology_stats: Any = None) -> pd.DataFrame:
     """

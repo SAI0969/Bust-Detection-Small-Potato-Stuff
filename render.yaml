@@ -23,11 +23,11 @@ services:
     buildCommand: npm install && npm run build
     staticPublishPath: dist
     routes:
-      # Proxy all /api/* requests directly to the live backend
-      - type: rewrite
-        source: /api/*
-        destination: https://nwp-forecast-backend.onrender.com/api/*
-      # Client-side SPA routing fallback
       - type: rewrite
         source: /*
         destination: /index.html
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: VITE_API_URL
+        value: https://nwp-forecast-backend-x7mn.onrender.com/api/v1

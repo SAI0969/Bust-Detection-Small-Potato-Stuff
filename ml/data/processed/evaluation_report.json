@@ -1,0 +1,212 @@
+{
+  "summary": {
+    "test_samples": 3750,
+    "roc_auc": 0.9589,
+    "brier_score": 0.082,
+    "rain_mae_earlier_mm": 19.23,
+    "rain_mae_after_ai_mm": 5.1,
+    "rain_mae_reduction_percent": 73.48,
+    "temp_mae_earlier_c": 3.87,
+    "temp_mae_after_ai_c": 1.6,
+    "temp_mae_reduction_percent": 58.67
+  },
+  "lead_time_performance": [
+    {
+      "lead_time": "Day 1",
+      "raw_rain_mae": 8.15,
+      "ai_rain_mae": 4.5,
+      "rain_error_reduction_pct": 44.8,
+      "raw_temp_mae": 1.16,
+      "ai_temp_mae": 0.93,
+      "temp_error_reduction_pct": 19.6,
+      "bust_frequency_pct": 11.4,
+      "mean_confidence": 87.0
+    },
+    {
+      "lead_time": "Day 2",
+      "raw_rain_mae": 8.02,
+      "ai_rain_mae": 4.21,
+      "rain_error_reduction_pct": 47.5,
+      "raw_temp_mae": 1.66,
+      "ai_temp_mae": 1.13,
+      "temp_error_reduction_pct": 32.1,
+      "bust_frequency_pct": 19.4,
+      "mean_confidence": 81.8
+    },
+    {
+      "lead_time": "Day 3",
+      "raw_rain_mae": 11.45,
+      "ai_rain_mae": 5.24,
+      "rain_error_reduction_pct": 54.3,
+      "raw_temp_mae": 2.02,
+      "ai_temp_mae": 1.24,
+      "temp_error_reduction_pct": 38.5,
+      "bust_frequency_pct": 32.8,
+      "mean_confidence": 69.4
+    },
+    {
+      "lead_time": "Day 4",
+      "raw_rain_mae": 14.95,
+      "ai_rain_mae": 5.18,
+      "rain_error_reduction_pct": 65.4,
+      "raw_temp_mae": 2.58,
+      "ai_temp_mae": 1.41,
+      "temp_error_reduction_pct": 45.1,
+      "bust_frequency_pct": 48.5,
+      "mean_confidence": 55.3
+    },
+    {
+      "lead_time": "Day 5",
+      "raw_rain_mae": 17.08,
+      "ai_rain_mae": 5.08,
+      "rain_error_reduction_pct": 70.3,
+      "raw_temp_mae": 2.93,
+      "ai_temp_mae": 1.61,
+      "temp_error_reduction_pct": 45.2,
+      "bust_frequency_pct": 52.2,
+      "mean_confidence": 46.1
+    },
+    {
+      "lead_time": "Day 6",
+      "raw_rain_mae": 21.17,
+      "ai_rain_mae": 5.38,
+      "rain_error_reduction_pct": 74.6,
+      "raw_temp_mae": 4.05,
+      "ai_temp_mae": 1.7,
+      "temp_error_reduction_pct": 58.1,
+      "bust_frequency_pct": 63.4,
+      "mean_confidence": 35.7
+    },
+    {
+      "lead_time": "Day 7",
+      "raw_rain_mae": 21.99,
+      "ai_rain_mae": 5.49,
+      "rain_error_reduction_pct": 75.0,
+      "raw_temp_mae": 4.49,
+      "ai_temp_mae": 1.85,
+      "temp_error_reduction_pct": 58.7,
+      "bust_frequency_pct": 74.8,
+      "mean_confidence": 26.8
+    },
+    {
+      "lead_time": "Day 8",
+      "raw_rain_mae": 25.68,
+      "ai_rain_mae": 5.5,
+      "rain_error_reduction_pct": 78.6,
+      "raw_temp_mae": 5.81,
+      "ai_temp_mae": 1.89,
+      "temp_error_reduction_pct": 67.4,
+      "bust_frequency_pct": 81.2,
+      "mean_confidence": 19.8
+    },
+    {
+      "lead_time": "Day 9",
+      "raw_rain_mae": 30.15,
+      "ai_rain_mae": 5.2,
+      "rain_error_reduction_pct": 82.7,
+      "raw_temp_mae": 6.48,
+      "ai_temp_mae": 2.02,
+      "temp_error_reduction_pct": 68.8,
+      "bust_frequency_pct": 83.9,
+      "mean_confidence": 15.9
+    },
+    {
+      "lead_time": "Day 10",
+      "raw_rain_mae": 31.57,
+      "ai_rain_mae": 5.19,
+      "rain_error_reduction_pct": 83.6,
+      "raw_temp_mae": 7.01,
+      "ai_temp_mae": 2.1,
+      "temp_error_reduction_pct": 70.1,
+      "bust_frequency_pct": 86.6,
+      "mean_confidence": 14.3
+    }
+  ],
+  "regional_performance": [
+    {
+      "region_id": "NW",
+      "region_name": "Northwest India",
+      "raw_rain_mae": 15.25,
+      "ai_rain_mae": 4.75,
+      "rain_error_reduction_pct": 68.9,
+      "bust_rate_pct": 59.5
+    },
+    {
+      "region_id": "EC",
+      "region_name": "Bay of Bengal & East Coast",
+      "raw_rain_mae": 25.08,
+      "ai_rain_mae": 6.46,
+      "rain_error_reduction_pct": 74.3,
+      "bust_rate_pct": 60.3
+    },
+    {
+      "region_id": "WG",
+      "region_name": "Western Ghats & West Coast",
+      "raw_rain_mae": 21.58,
+      "ai_rain_mae": 6.14,
+      "rain_error_reduction_pct": 71.6,
+      "bust_rate_pct": 55.6
+    },
+    {
+      "region_id": "CI",
+      "region_name": "Central India",
+      "raw_rain_mae": 16.72,
+      "ai_rain_mae": 4.78,
+      "rain_error_reduction_pct": 71.4,
+      "bust_rate_pct": 56.0
+    },
+    {
+      "region_id": "NE",
+      "region_name": "East & Northeast India",
+      "raw_rain_mae": 15.03,
+      "ai_rain_mae": 3.99,
+      "rain_error_reduction_pct": 73.4,
+      "bust_rate_pct": 50.6
+    },
+    {
+      "region_id": "SP",
+      "region_name": "Southern Peninsula",
+      "raw_rain_mae": 21.15,
+      "ai_rain_mae": 4.39,
+      "rain_error_reduction_pct": 79.2,
+      "bust_rate_pct": 54.5
+    }
+  ],
+  "confusion_matrix": [
+    [
+      1492,
+      157
+    ],
+    [
+      266,
+      1835
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.8486916951080774,
+      "recall": 0.9047907822922984,
+      "f1-score": 0.8758438508952158,
+      "support": 1649.0
+    },
+    "1": {
+      "precision": 0.9211847389558233,
+      "recall": 0.8733936220847216,
+      "f1-score": 0.8966528218910335,
+      "support": 2101.0
+    },
+    "accuracy": 0.8872,
+    "macro avg": {
+      "precision": 0.8849382170319504,
+      "recall": 0.8890922021885099,
+      "f1-score": 0.8862483363931246,
+      "support": 3750.0
+    },
+    "weighted avg": {
+      "precision": 0.8893071311411745,
+      "recall": 0.8872,
+      "f1-score": 0.8875024237118059,
+      "support": 3750.0
+    }
+  }
+}

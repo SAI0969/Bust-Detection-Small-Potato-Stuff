@@ -1,0 +1,2 @@
+# Auto-normalize line endings to LF (recommended for Windows + Linux/Render deployment)
+* text=auto eol=lf
